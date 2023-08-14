@@ -1,0 +1,44 @@
+{
+  "statusCode": 200,
+  "message": "FETCH_DATA_SUCCESSFULLY",
+  "total": 5,
+  "currentPage": 1,
+  "totalPages": 1,
+  "data": [
+    {
+      "id": 49,
+      "name": "Traveller",
+      "status": "1",
+      "createdAt": "2023-05-10T12:54:10.000Z",
+      "updatedAt": "2023-05-10T12:54:10.000Z"
+    },
+    {
+      "id": 45,
+      "name": "ANN",
+      "status": "1",
+      "createdAt": "2023-05-05T11:48:08.000Z",
+      "updatedAt": "2023-05-05T11:48:08.000Z"
+    },
+    {
+      "id": 44,
+      "name": "Car12",
+      "status": "1",
+      "createdAt": "2023-05-05T11:44:38.000Z",
+      "updatedAt": "2023-05-05T11:47:58.000Z"
+    },
+    {
+      "id": 41,
+      "name": "Truck",
+      "status": "1",
+      "createdAt": "2023-05-03T12:55:45.000Z",
+      "updatedAt": "2023-05-03T12:55:45.000Z"
+    },
+    {
+      "id": 40,
+      "name": "Car",
+      "status": "1",
+      "createdAt": "2023-05-03T10:50:36.000Z",
+      "updatedAt": "2023-05-03T10:50:36.000Z"
+    }
+  ]
+}

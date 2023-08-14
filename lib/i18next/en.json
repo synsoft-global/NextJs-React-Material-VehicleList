@@ -1,0 +1,293 @@
+{
+  "title": "Ostool - Car Retal Management",
+  "menu": {
+    "dashboard": "Dashboard",
+    "agencyManagement": "Agency Management",
+    "vehicleManagement": "Vehicle Management",
+    "organizationManagement": "Organization Management",
+    "tariffPackages": "Tariff Packages",
+    "reservation": "Reservation",
+    "customQuotation": "Custom Quotation",
+    "reports": "Reports",
+    "customizeWebsite": "Customize Website",
+    "dropdownItem": "Dropdown Item",
+    "termsConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "profile": "Profile",
+    "help": "Help",
+    "master": "Master",
+    "vehicleConfig": "Vehicle Config",
+    "subscriptionPlansConfig": "Subscription Plans Config",
+    "subscriptionManagement": "Subscription Management",
+    "setting": "Setting",
+    "logout": "Logout"
+  },
+  "page": {
+    "dashboard": {
+      "title": "Dashboard",
+      "heading": "Dashboard"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "heading": "Privacy Policy"
+    },
+    "termsConditions": {
+      "title": "Terms & Conditions",
+      "heading": "Terms & Conditions"
+    },
+    "organizationManagement": {
+      "title": "Organization Management",
+      "heading": "Organization List",
+      "createOrganization": "Create Organization",
+      "add": {
+        "title": "Create Organization",
+        "heading": "Create Organization"
+      }
+    },
+    "agencyManagement": {
+      "title": "Agency Management",
+      "heading": "Agency List",
+      "addAgency": "Add Agency",
+      "add": {
+        "title": "Add Agency",
+        "heading": "Add Agency",
+        "hoursOfOperation": "Hours of operation (Optional)",
+        "paymentConfiguration": "Payment Configuration"
+      },
+      "edit": {
+        "title": "Edit Agency",
+        "heading": "Edit Agency"
+      },
+      "fieldName": {
+        "agencyName": "Agency Name",
+        "numberOfVehicle": "Number Of Vehicle",
+        "agencyCode": "Agency Code",
+        "agencyAddress": "Agency Address",
+        "city": "City",
+        "country": "Country",
+        "state": "State",
+        "zip": "Zip",
+        "agencyActive": "Is Active Agency",
+        "enableStripePaymentGatway": "Enable Stripe Payment Gatway",
+        "stripePublicKey": "Stripe Public Key",
+        "stripeSecretKey": "Stripe Secret Key"
+      }
+    },
+    "vehicleManagement": {
+      "title": "Vehicle Management",
+      "heading": "Vehicle List",
+      "uploadFile": "Upload File",
+      "vehicleCreation": "Vehicle Creation",
+      "vehicleDetails": "Vehicle details",
+      "motTevisionInformation": "MOT Revision Information",
+      "technicalVehicleOptions": "Technical Vehicle Options",
+      "dailyRates": "Daily Rates",
+      "rentalPeriod": "Rental Period",
+      "vehicleStatus": "Vehicle Status",
+      "add": {
+        "title": "Vehicle Creation",
+        "heading": "Vehicle Creation"
+      },
+      "fieldName": {
+        "lastTechnicalInspection": "Last technical inspection",
+        "lastRevision": "Last revision",
+        "gps": "GPS",
+        "reversingRader": "Reversing Rader",
+        "bluetooth": "Bluetooth",
+        "airConditioner": "Air conditioner",
+        "isofixSeat": "Isofix seat",
+        "category": "Category",
+        "type": "Type",
+        "brand": "Brand",
+        "model": "Model",
+        "noOfDoors": "No of doors",
+        "agency": "Agency",
+        "registration": "Registration",
+        "yearOfRegistration": "Year of registration",
+        "motorization": "Motorization",
+        "gearBox": "Gear Box",
+        "noOfSeat": "Number of seats",
+        "mileage": "Mileage",
+        "amount": "Amount",
+        "minimumDays": "Minimum Days",
+        "maximumDays": "Maximum Days"
+      }
+    },
+    "verifyOtp":{
+      "title": "Verify Email",
+      "heading": "Verify Your Email",
+      "fourDigit":"Please enter the 4 digit code sent to ",
+      "receiveEmail":"Didn't receive the Email?",
+      "checkSpam":"Check your spam or send it again",
+      "verifyNow":"Verify Now",
+      "resendCode":"Resend Code",
+      "requriedOtp":"OTP is required",
+      "resending":"resending..."
+    },
+    "login": {
+      "title": "Login",
+      "heading": "Welcome Back",
+      "description": "Looking for an easier way to manage your car rental business? OStool is here to help! We're making it simple for you to keep track of your fleet with our comprehensive car rental management system.",
+      "forgotPassword": "forgot password?",
+      "dontHaveAnAccount": "Don't have an account?",
+      "fieldName": {
+        "email": "Email",
+        "password": "Password"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "heading": "Sign Up",
+      "description": "Looking for an easier way to manage your car rental business? OStool is here to help! We're making it simple for you to keep track of your fleet with our comprehensive car rental management system.",
+      "personalInformation": "Personal Information",
+      "companyInformation": "Company Information",
+      "acknowledge": "I acknowledge that I agree to the <a href='/terms-conditions' target='_blank' class='hover-link'>terms and conditions</a>, as well as the <a href='/privacy-policy' target='_blank' class='hover-link'>privacy policy</a>, which applies to the handling of my personal information.",
+      "fieldName": {
+        "companyName": "Company Name",
+        "companyAddress": "Company Address",
+        "city": "City",
+        "country": "Country",
+        "state": "State",
+        "zip": "Zip",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "currency": "Currency",
+        "isActive": "isActive"
+      }
+    },
+    "reservationSetting": {
+      "title": "Reservation Settings",
+      "heading": "Reservation Settings",
+      "question1": "How Far In Advance Would You Like To Be Notified Before The Start Of A Rental?",
+      "question1_Description": "Minimum duration between the moment the tenant makes his request and the start of the rental",
+      "question2": "How Far In Advance Can Renters Reserve Your Vehicles?",
+      "question2_Description": "Maximum duration between the moment the tenant makes his request and the start of the rental",
+      "question3": "What Is The Minimum Rental Period That You Accept?",
+      "question3_Description": "Minimum rental period that you accept.",
+      "creationOfReservations": "Creation of reservations",
+      "creationOfReservationsQuestion": {
+        "question1": "Allow overbooking",
+        "question2": "Authorize the taking of reservation outside reservation criteria",
+        "question3": "Allow reservation creation in the past",
+        "question4": "Generate booking references automatically",
+        "answer1": "Yes for everyone",
+        "answer2": "Only administrators",
+        "answer3": "No"
+      }
+    },
+    "vehicleConfig": {
+      "title": "Vehicle Config",
+      "heading": "Vehicle Config",
+      "category": "Category",
+      "type": "Type",
+      "brand": "Brand",
+      "button": {
+        "addCategory": "Add Category",
+        "addType": "Add Type",
+        "addBrand": "Add Brand"
+      },
+      "fieldName": {
+        "name":"Name",
+        "brandName": "Brand Name",
+        "categoryName": "Category Name",
+        "vehicleCategory":"Vehicle Category",
+        "vehicleType":"Vehicle Type",
+        "typeName":"Type Name",
+        "type": "Type",
+        "isActive": "isActive"
+      },
+      "addBrand": {
+        "title": "Add Vehicle Brand",
+        "heading": "Add Vehicle Brand"
+      },
+      "addCategory": {
+        "title": "Add Vehicle Category",
+        "heading": "Add Vehicle Category"
+      },
+      "addType": {
+        "title": "Add Vehicle Type",
+        "heading": "Add Vehicle Type"
+      },
+      "editBrand": {
+        "title": "Edit Vehicle Brand",
+        "heading": "Edit Vehicle Brand"
+      },
+      "editCategory": {
+        "title": "Edit Vehicle Category",
+        "heading": "Edit Vehicle Category"
+      },
+      "editType": {
+        "title": "Edit Vehicle Type",
+        "heading": "Edit Vehicle Type"
+      }
+    },
+    "pageNotFound": {
+      "title": "Page Not Found",
+      "heading": "Oops! page you're looking for cannot be found.",
+      "goToHome": "Go To Home"
+    }
+  },
+  "status": {
+    "active": "Active"
+  },
+  "message": {
+    "invalidValue": "Enter valid value",
+    "invalidEmail": "Enter a valid email",
+    "invalidPassword": "Enter valid password",
+    "strongPassword": "Password must be at least 8 characters",
+    "passwordsNotMatch": "Passwords and confirm password is different",
+    "required": "Field is required",
+    "validDate": "Enter valid date",
+    "validYear": "Enter valid year",
+    "validInspectionDate": "Enter vaild date",
+    "validRevisionDate": "Enter valid date",
+    "maximumDayGreaterThanMinimumDay": "Maximum day must be greater than or equal to minimum day",
+    "countryApiFailed": "Oops! Something went wrong with \"country\". Please try again later.",
+    "stateApiFailed": "Oops! Something went wrong with \"state\". Please try again later.",
+    "currencyApiFailed": "Oops! Something went wrong with \"currency\". Please try again later."
+  },
+  "apiResponseCode": {
+    "NO_CUSTOMER_FOUND": "Email not registered",
+    "SERVER_NOT_STARTED": "Server not started",
+    "INTERNAL_SERVER_ERROR": "Something went wrong with server",
+    "INACTIVE_ACCOUNT": "Verify your email",
+    "PASSWORD_DOES_NOT_MATCH": "Enter correct password",
+    "MINIMUM_SIX_DIGIT": "Enter correct password",
+    "ORG_CREATED_SUCCESSFULLY": "Organization created",
+    "LOGGED_IN_SUCCESSFUL": "Logged In",
+    "REGISTERED_SUCCESSFULLY": "Registered",
+    "USER_ALREADY_REGISTERED": "User already added",
+    "CREATE_VEHICLE_CATEGORY_SUCCESS":"Category added",
+    "CREATE_VEHICLE_SUCCESS":"Vehicle type added",
+    "CREATE_VEHICLES_BRAND_SUCCESS":"Vehicle brand added",
+    "CREATE_AGENCY_SUCCESS":"Agency added",
+    "CREATE_AGENCY_VEHICLE_SUCCSS":"Vehicle created",
+    "CREATED_SUCCESSFULLY":"Create successfully",
+    "NO_DATA_FOUND":"No record found",
+    "DELETED": "Deleted",
+    "UPDATED": "Updated",    
+    "UPDATING": "Updating",    
+    "LOADING": "Loading",
+    "OTP_SENT_SUCCESSFULLY":"OTP sent successfully"    
+  },
+  "button": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "common": {
+    "select": "Select",
+    "day": "day",
+    "month": "month",
+    "hour": "hour",
+    "edit":"Edit",
+    "delete":"Delete",
+    "areYouSure":"Are you sure"
+  },
+  "copywrite": "© {{year}} {{brandName}}. All Rights Reserved."
+}

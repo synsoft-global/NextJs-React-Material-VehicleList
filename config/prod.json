@@ -1,0 +1,19 @@
+{
+  "brandName": "Ostool",
+  "brandLogo": "/images/logo.svg",
+  "basePath": "",
+  "apiBaseUrl": "http://192.168.0.38:4000",
+  "defaultLanugage": "en",
+  "supportedLanguages": [
+    {
+      "label": "English",
+      "code": "en",
+      "icon": "https://flagcdn.com/gb.svg"
+    },
+    {
+      "label": "French",
+      "code": "fr",
+      "icon": "https://flagcdn.com/fr.svg"
+    }
+  ]
+}

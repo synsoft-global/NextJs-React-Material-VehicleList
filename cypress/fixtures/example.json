@@ -1,0 +1,18 @@
+{
+  "firstName":"",
+  "lastName":"",
+  "emailInput":"",
+  "phoneInput":"",
+  "passwordInput":"",
+  "confirmPasswordInput":"",
+  "companyFieldName":"",
+  "currencySelect":"",
+  "companyAddressInput" : "",
+  "countryInput":"",
+  "stateInput":"",
+  "cityInput":"",
+  "zipInput":"",
+  "role": "1 => super admin, 2 =>business owner"
+}
+
+

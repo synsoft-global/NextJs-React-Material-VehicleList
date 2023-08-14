@@ -1,0 +1,154 @@
+@import 'animate.min.css';
+
+:root {
+  --screen-height: 100vh;
+  --header-height: 0;
+  --footer-height: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
+html,
+#__next,
+.body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: var(--font-family);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: var(--font-family)
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: unset;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+.hover-link,
+.hover-links a {
+  color: var(--palette-primary-main)
+}
+
+.hover-link:hover,
+.hover-links a:hover {
+  text-decoration: underline;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.w-100 {
+  width: 100%
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
+.animate {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+.html-content h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--palette-text-primary);
+  margin-bottom: 0;
+}
+
+.html-content p {
+  color: var(--palette-text-secondary);
+  font-weight: 400;
+}
+
+.heading {
+  margin-bottom: 28px;
+}
+
+.MuiLink-root {
+  cursor: pointer;
+}
+
+/* Button color */
+
+.checkBtn {
+  color: #09A41E
+}
+
+.crossBtn {
+  color: #E70013
+}
+
+
+
+/* Upload */
+.filepond--root{
+  font-family:var(--font-family) !important;
+  font-size:inherit !important;
+}
+
+.filepond--root .filepond--drip{
+   background:white !important;
+  border:1px dashed rgba(0 0 0 / 0.2) !important;
+  opacity:1 !important;
+}
+
+/* .filepond--credits {
+  display: none !important;
+} */
+
+.filepond--root {
+  max-height: 25em;
+}
+
+.filepond--item {
+  width: calc(50% - 0.5em);
+}

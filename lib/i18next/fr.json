@@ -1,0 +1,221 @@
+{
+  "title": "Ostool - Gestion de location de voitures",
+  "menu": {
+    "dashboard": "Tableau de bord",
+    "agencyManagement": "Gestion d'agence",
+    "vehicleManagement": "Gestion de véhicules",
+    "organizationManagement": "Gestion de l'organisation",
+    "tariffPackages": "Forfaits tarifaires",
+    "reservation": "Réservation",
+    "customQuotation": "Devis personnalisé",
+    "reports": "Rapports",
+    "customizeWebsite": "Personnaliser le site Web",
+    "dropdownItem": "Elément de menu déroulant",
+    "termsConditions": "Conditions générales",
+    "privacyPolicy": "Politique de confidentialité",
+    "profile": "Profil",
+    "help": "Aide",
+    "master": "Maître",
+    "vehicleConfig": "Configuration des véhicules",
+    "subscriptionPlansConfig": "Configuration des plans d'abonnement",
+    "subscriptionManagement": "Gestion des abonnements",
+    "setting": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "page": {
+    "dashboard": {
+      "title": "Tableau de bord",
+      "heading": "Tableau de bord"
+    },
+    "privacyPolicy": {
+      "title": "Politique de confidentialité",
+      "heading": "Politique de confidentialité"
+    },
+    "termsConditions": {
+      "title": "Conditions générales",
+      "heading": "Conditions générales"
+    },
+    "organizationManagement": {
+      "title": "Gestion de l'organisation",
+      "heading": "Liste des organisations",
+      "createOrganization": "Créer une organisation",
+      "add": {
+        "title": "Créer une organisation",
+        "heading": "Créer une organisation"
+      }
+    },
+    "agencyManagement": {
+      "title": "Gestion des agences",
+      "heading": "Gestion des agences",
+      "addAgency": "Ajouter une agence",
+      "add": {
+        "title": "Ajouter une agence",
+        "heading": "Ajouter une agence",
+        "hoursOfOperation": "Horaires d'ouverture (facultatif)",
+        "paymentConfiguration": "Configuration de paiement"
+      },
+      "fieldName": {
+        "agencyName": "Nom de l'agence",
+        "numberOfVehicle": "Nombre de véhicules",
+        "agencyCode": "Code de l'agence",
+        "agencyAddress": "Adresse de l'agence",
+        "agencyActive": "Agence active",
+        "enableStripePaymentGatway": "Activer le portail de paiement Stripe",
+        "stripePublicKey": "Clé publique Stripe",
+        "stripeSecretKey": "Clé secrète Stripe"
+      }
+    },
+    "vehicleManagement": {
+      "title": "Gestion des véhicules",
+      "heading": "Liste des véhicules",
+      "vehicleCreation": "Création de véhicule",
+      "vehicleDetails": "Détails du véhicule",
+      "motTevisionInformation": "Informations sur la révision du MOT",
+      "technicalVehicleOptions": "Options techniques du véhicule",
+      "dailyRates": "Tarifs journaliers",
+      "rentalPeriod": "Durée de location",
+      "vehicleStatus": "État du véhicule",
+      "add": {
+        "title": "Création de véhicule",
+        "heading": "Création de véhicule"
+      },
+      "fieldName": {
+        "lastTechnicalInspection": "Dernière inspection technique",
+        "lastRevision": "Dernière révision",
+        "gps": "GPS",
+        "reversingRader": "Radar de recul",
+        "bluetooth": "Bluetooth",
+        "airConditioner": "Climatiseur",
+        "isofixSeat": "Siège isofix"
+      }
+    },
+    "login": {
+      "title": "Connexion",
+      "heading": "Bienvenue de retour",
+      "description": "Vous cherchez un moyen plus facile de gérer votre entreprise de location de voitures ? OStool est là pour vous aider ! Nous simplifions la gestion de votre flotte avec notre système de gestion de location de voitures complet.",
+      "forgotPassword": "mot de passe oublié?",
+      "dontHaveAnAccount": "Vous n'avez pas de compte?",
+      "fieldName": {
+        "email": "E-mail",
+        "password": "Mot de passe"
+      }
+    },
+    "register": {
+      "title": "S'inscrire",
+      "heading": "S'inscrire",
+      "description": "Vous cherchez un moyen plus facile de gérer votre entreprise de location de voitures ? OStool est là pour vous aider ! Nous simplifions la gestion de votre flotte avec notre système de gestion de location de voitures complet.",
+      "personalInformation": "Informations personnelles",
+      "companyInformation": "Informations sur l'entreprise",
+      "acknowledge": "Je reconnais que j'accepte les <a href='/terms-conditions' target='_blank' class='hover-link'>conditions d'utilisation</a>, ainsi que la <a href='/privacy-policy' target='_blank' class='hover-link'>politique de confidentialité</a>, qui s'applique à la gestion de mes informations personnelles.",
+      "fieldName": {
+        "companyName": "Nom de l'entreprise",
+        "companyAddress": "Adresse de l'entreprise",
+        "city": "Ville",
+        "country": "Pays",
+        "state": "Etat",
+        "zip": "Code postal",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmez le mot de passe",
+        "currency": "Devise",
+        "isActive": "Actif"
+      }
+    },
+    "setting": {
+      "title": "Paramètres de réservation",
+      "heading": "Paramètres de réservation",
+      "creationOfReservations": "Création de réservations",
+      "reservationSettings": {
+        "ques_1": "À quelle avance souhaitez-vous être notifié avant le début d'une location ?",
+        "ques_1_Description": "Durée minimale entre le moment où le locataire fait sa demande et le début de la location",
+        "ques_2": "À quelle avance les locataires peuvent-ils réserver vos véhicules ?",
+        "ques_2_Description": "Durée maximale entre le moment où le locataire fait sa demande et le début de la location",
+        "ques_3": "Quelle est la durée minimale de location que vous acceptez ?",
+        "ques_3_Description": "Durée minimale de location que vous acceptez."
+      },
+      "creationOfReservationsQuestion": {
+        "question_1": "Autoriser les surréservations",
+        "question_2": "Autoriser la création de réservations en dehors des critères de réservation",
+        "question_3": "Autoriser la création de réservations dans le passé",
+        "question_4": "Générer automatiquement les références de réservation",
+        "answer_1": "Oui pour tout le monde",
+        "answer_2": "Uniquement pour les administrateurs",
+        "answer_3": "Non"
+      }
+    },
+    "vehicleConfig": {
+      "title": "Configuration des véhicules",
+      "heading": "Configuration des véhicules",
+      "category": "Catégorie",
+      "type": "Type",
+      "brand": "Marque",
+      "button": {
+        "addCategory": "Ajouter une catégorie",
+        "addType": "Ajouter un type",
+        "addBrand": "Ajouter une marque"
+      },
+      "fieldName": {
+        "brandName": "Nom de la marque",
+        "categoryName": "Nom de la catégorie",
+        "type": "Type",
+        "isActive": "Actif"
+      },
+      "addBrand": {
+        "title": "Ajouter une marque de véhicule",
+        "heading": "Ajouter une marque de véhicule"
+      },
+      "addCategory": {
+        "title": "Ajouter une catégorie de véhicule",
+        "heading": "Ajouter une catégorie de véhicule"
+      },
+      "addType": {
+        "title": "Ajouter un type de véhicule",
+        "heading": "Ajouter un type de véhicule"
+      }
+    },
+    "pageNotFound": {
+      "title": "Page non trouvée",
+      "heading": "Oops ! la page que vous recherchez est introuvable.",
+      "goToHome": "Aller à la page d'accueil"
+    }
+  },
+  "status": {
+    "active": "Actif"
+  },
+  "message": {
+    "invalidValue": "Entrez une valeur valide",
+    "invalidEmail": "Entrez un e-mail valide",
+    "invalidPassword": "Entrez un mot de passe valide",
+    "strongPassword": "Le mot de passe doit comporter au moins 8 caractères",
+    "passwordsNotMatch": "Les mots de passe et la confirmation du mot de passe sont différents",
+    "required": "Le champ est obligatoire",
+    "validDate": "Entrez une date valide",
+    "validYear": "Entrez une année valide",
+    "validInspectionDate": "Entrez une date valide",
+    "validRevisionDate": "Entrez une date valide",
+    "maximumDayGreaterThanMinimumDay": "Le nombre maximum de jours doit être supérieur ou égal au nombre minimum de jours",
+    "countryApiFailed": "Oops! Quelque chose s'est mal passé avec \"pays\". Veuillez réessayer plus tard.",
+    "stateApiFailed": "Oops! Quelque chose s'est mal passé avec \"état\". Veuillez réessayer plus tard.",
+    "currencyApiFailed": "Oops! Quelque chose s'est mal passé avec \"devise\". Veuillez réessayer plus tard."
+  },
+  "apiResponseCode": {
+    "NO_CUSTOMER_FOUND": "Email non enregistré",
+    "SERVER_NOT_STARTED": "Serveur non démarré",
+    "INTERNAL_SERVER_ERROR": "Quelque chose s'est mal passé avec le serveur",
+    "INACTIVE_ACCOUNT": "Votre compte n'est pas actif, contactez notre équipe de support",
+    "PASSWORD_DOES_NOT_MATCH": "Entrez le mot de passe correct",
+    "MINIMUM_SIX_DIGIT": "Entrez le mot de passe correct",
+    "ORG_CREATED_SUCCESSFULLY": "Organisation créée",
+    "LOGGED_IN_SUCCESSFUL": "Connecté"
+  },
+  "button": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "copywrite": "© {{year}} {{brandName}}. Tous droits réservés."
+}
